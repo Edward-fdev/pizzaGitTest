@@ -5,5 +5,9 @@ public class Pizza {
 	private int nbIngredients;
 	private int prix;
 	private String base;
+	
+	public void sayHello(){
+		System.out.println("Hello my name is "+this.nom);
+	}
 
 }
